@@ -1,0 +1,103 @@
+.comment {
+  margin-top: 2.4rem;
+  display: flex;
+  gap: 1.6rem;
+
+  width: 100%;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+.commentBox,
+.commentContent {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.commentContent {
+  background-color: var(--gray-700);
+  border-radius: 9px;
+
+  padding: 1.6rem 1.6rem 2.5rem;
+}
+
+.commentContent > header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.authorAndTime strong {
+  display: block;
+  font-size: 1.4rem;
+  color: var(--gray-100);
+  line-height: 1.6;
+}
+
+.authorAndTime time {
+  font-size: 1.2rem;
+  color: var(--gray-400);
+  line-height: 1.6;
+}
+
+.buttonDelete {
+  background-color: transparent;
+  border: 0;
+  line-height: 0;
+  border-radius: 2px;
+
+  color: var(--gray-400);
+
+  cursor: pointer;
+
+  transition: color 0.5s;
+}
+
+.buttonDelete:hover {
+  color: var(--red-500);
+}
+
+.commentContent p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.buttonLike {
+  background: transparent;
+  border: 0;
+
+  display: flex;
+  align-items: center;
+
+  color: var(--gray-400);
+  font-weight: 700;
+  font-size: 1.4rem;
+
+  cursor: pointer;
+}
+
+.buttonLike:hover {
+  color: var(--green-400);
+}
+
+.buttonLike svg {
+  margin-right: 1rem;
+}
+
+.buttonLike span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonLike span::before {
+  content: "\2022";
+  padding: 0 0.4rem;
+}
