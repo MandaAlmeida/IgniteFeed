@@ -1,7 +1,7 @@
 import { Header } from "./components/Header";
 import styles from "./App.module.css";
 import { SiderBar } from "./components/Siderbar";
-import { PostProps } from "./types/post";
+import { PostProps } from "./@types/post";
 import { Post } from "./components/Post";
 
 const posts: PostProps[] = [

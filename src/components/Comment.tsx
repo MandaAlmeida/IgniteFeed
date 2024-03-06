@@ -3,7 +3,7 @@ import styles from "./Comment.module.css";
 import { format, formatDistanceToNow } from "date-fns";
 import { ptBR } from "date-fns/locale/pt-BR";
 import { Avatar } from "./Avatar";
-import { CommentProps } from "../types/comment";
+import { CommentProps } from "../@types/comment";
 import { useState } from "react";
 
 interface CommentsProps extends CommentProps {

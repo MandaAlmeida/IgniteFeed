@@ -4,9 +4,9 @@ import { ptBR } from "date-fns/locale/pt-BR";
 
 import { Comment } from "./Comment";
 import { Avatar } from "./Avatar";
-import { PostProps } from "../types/post";
+import { PostProps } from "../@types/post";
 import { FormEvent, useState } from "react";
-import { CommentProps } from "../types/comment";
+import { CommentProps } from "../@types/comment";
 
 export function Post(props: PostProps) {
   const { id, author, content, publishedAt } = props;
